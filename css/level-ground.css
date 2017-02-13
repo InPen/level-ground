@@ -1,0 +1,95 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+
+}
+section,
+footer{
+  border: 1px solid black;
+  width: 100%;
+  float: left;
+}
+header,
+footer{
+  clear:both;
+}
+
+li{
+  width: 30%;
+  height: 20px;
+  float: left;
+  list-style: none;
+  padding: 0% .5%;
+}
+#doante{
+  float: right;
+  margin-right: 800px;
+}
+#hero{
+  background-color: #64829a;
+  color: white;
+}
+#hero, h1, p{
+  width: 100%;
+  float: left;
+  padding: 0% 25%;
+  text-align: center;
+}
+.right{
+  width: 50%;
+  float: left;
+  text-align: center;
+
+}
+.left{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.bottomSec{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.bottomImgs{
+  width: 50%;
+}
+#hero nav,
+#hero div,
+#hero a.topImg{
+  width: 30%;
+  display: inline-block;
+  float: left;
+}
+@media only screen and (max-width: 400px){
+#hero
+nav{
+  display: none;
+}
+footer, p, .secondh{
+  display: none;
+  }
+
+}
+@media (min-width: 401px) and (max-width: 1031px){
+  ul li{
+    display: none;
+
+  }
+footer nav{
+  display: flex;
+  }
+
+}
+footer{
+  background-color: #22344c;
+  color: white;
+}
+footer div div div{
+  color: white;
+}
+
+#one {
+  width: 33.333%;
+  float: left;}
